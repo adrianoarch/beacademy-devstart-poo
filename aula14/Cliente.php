@@ -11,6 +11,7 @@ class Cliente extends Usuario
             return $this->dataCadastro;
         }
 
+      
         public function setDataCadastro(string $dataCadastro) : void
         {
             $this->dataCadastro = $dataCadastro;

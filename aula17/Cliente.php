@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-class Cliente extends Usuario
+final class Cliente extends Usuario
 { 
         private string $dataCadastro;
 
@@ -11,6 +11,7 @@ class Cliente extends Usuario
             return $this->dataCadastro;
         }
 
+      
         public function setDataCadastro(string $dataCadastro) : void
         {
             $this->dataCadastro = $dataCadastro;
