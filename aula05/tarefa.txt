@@ -1,0 +1,1 @@
+Fazer abstração de lojas e empresas reais para POO
