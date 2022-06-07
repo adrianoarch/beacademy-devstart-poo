@@ -6,5 +6,6 @@ class Produto
 {
     private string $nome;
     private float $preco;
+
     
 }
